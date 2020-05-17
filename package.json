@@ -1,21 +1,23 @@
 {
-  "name": "backend-template",
-  "version": "1.0.0",
-  "description": "Teammatefinder",
-  "main": "src/index.js",
+  "name": "instaclone",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "serve": "nodemon --exec babel-node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
   },
-  "author": "Nikola Tanković",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "core-js": "^3.3.2",
+    "vue": "^2.6.10",
+    "vue-croppa": "^1.3.8",
+    "vue-router": "^3.1.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.7",
-    "@babel/node": "^7.8.7",
-    "@babel/preset-env": "^7.8.7",
-    "nodemon": "^2.0.2"
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-plugin-router": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.10"
   }
 }
